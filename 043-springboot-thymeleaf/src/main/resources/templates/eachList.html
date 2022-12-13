@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>循环遍历list集合</title>
+</head>
+<body>
+hehe 测试一下子
+<select>
+    <option th:each="user,userStat:${userList}" th:value="${user.id}" th:text="${user.nick}"></option>
+</select>
+<hr/>
+<table border="1" cellpadding="0" cellspacing="0">
+    <tr th:each="user,userStat:${userList}">
+        <td th:text="${userStat.index}"></td>
+        <td th:text="${userStat.count}"></td>
+        <td th:text="${userStat.size}"></td>
+        <td th:text="${userStat.even}"></td>
+        <td th:text="${userStat.odd}"></td>
+        <td th:text="${userStat.first}"></td>
+        <td th:text="${userStat.last}"></td>
+        <td th:text="${user.id}" style="color: red"></td>
+        <td th:text="${user.nick}" style="color: red"></td>
+        <td th:text="${user.phone}" style="color: red"></td>
+        <td th:text="${user.address}" style="color: red"></td>
+    </tr>
+</table>
+<hr/>
+
+<!--
+    user 当前循环的对象变量名称(随意)
+    userStat 当前循环对象状态的变量(可选默认就是对象变量名称+Stat)
+    ${userList} 当前循环的集合
+-->
+<div th:each="user,userStat:${userList}">
+    <span th:text="${userStat.index}"></span>
+    <span th:text="${userStat.count}"></span>
+    <span th:text="${user.id}"></span>
+    <span th:text="${user.nick}"></span>
+    <span th:text="${user.phone}"></span>
+    <span th:text="${user.address}"></span>
+</div>
+
+
+
+<hr/>
+<div></div>
+<div th:each="user:${userList}">
+    <span th:text="${userStat.index}"></span>
+    <span th:text="${userStat.count}"></span>
+    <span th:text="${user.id}"></span>
+    <span th:text="${user.nick}"></span>
+    <span th:text="${user.phone}"></span>
+    <span th:text="${user.address}"></span>
+</div>
+
+
+<hr/>
+<h1 th:text="${data}">xxxx</h1>
+<div th:text="${data}">xxxx</div>
+<span th:text="${data}">xxxx</span>
+<input type="text" th:value="${data}"/>
+
+</body>
+</html>

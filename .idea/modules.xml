@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/040-springboot-thymeleaf-first/040-springboot-thymeleaf-first.iml" filepath="$PROJECT_DIR$/040-springboot-thymeleaf-first/040-springboot-thymeleaf-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/041-springboot-thymeleaf/041-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/041-springboot-thymeleaf/041-springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/042-springboot-thymeleaf-expression/042-springboot-thymeleaf-expression.iml" filepath="$PROJECT_DIR$/042-springboot-thymeleaf-expression/042-springboot-thymeleaf-expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/043-springboot-thymeleaf/043-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/043-springboot-thymeleaf/043-springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/044-springboot-thymeleaf-if/044-springboot-thymeleaf-if.iml" filepath="$PROJECT_DIR$/044-springboot-thymeleaf-if/044-springboot-thymeleaf-if.iml" />
+      <module fileurl="file://$PROJECT_DIR$/045-springboot-thymeleaf-inline/045-springboot-thymeleaf-inline.iml" filepath="$PROJECT_DIR$/045-springboot-thymeleaf-inline/045-springboot-thymeleaf-inline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/046-springboot-thymeleaf-literal/046-springboot-thymeleaf-literal.iml" filepath="$PROJECT_DIR$/046-springboot-thymeleaf-literal/046-springboot-thymeleaf-literal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/047-springboot-thymeleaf-operator/047-springboot-thymeleaf-operator.iml" filepath="$PROJECT_DIR$/047-springboot-thymeleaf-operator/047-springboot-thymeleaf-operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/048-springboot-thymeleaf/048-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/048-springboot-thymeleaf/048-springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/049-springboot-thymeleaf-function/049-springboot-thymeleaf-function.iml" filepath="$PROJECT_DIR$/049-springboot-thymeleaf-function/049-springboot-thymeleaf-function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/code.iml" filepath="$PROJECT_DIR$/.idea/code.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>循环遍历复杂的集合</title>
+</head>
+<body>
+<h2>循环遍历复杂集合:list -> Map -> list -> User</h2>
+
+<div th:each="myListMap:${myList}"><!-- myList取出来的是map对象 -->
+    <div th:each="myListMapObj:${myListMap}"><!-- myListMap里面取出的是key与value , value就是list对象-->
+        Map集合的key:<span th:text="${myListMapObj.key}"></span>
+        <div th:each="user:${myListMapObj.value}"><!--myListMapObj.value取出来的就是user对象 -->
+            <span th:text="${user.id}"></span>
+            <span th:text="${user.nick}"></span>
+            <span th:text="${user.phone}"></span>
+            <span th:text="${user.address}"></span>
+        </div>
+    </div>
+    <hr/>
+</div>
+
+</body>
+</html>

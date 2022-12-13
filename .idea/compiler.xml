@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="048-springboot-thymeleaf" />
+        <module name="041-springboot-thymeleaf" />
+        <module name="043-springboot-thymeleaf" />
+        <module name="044-springboot-thymeleaf-if" />
+        <module name="040-springboot-thymeleaf-first" />
+        <module name="047-springboot-thymeleaf-operator" />
+        <module name="042-springboot-thymeleaf-expression" />
+        <module name="046-springboot-thymeleaf-literal" />
+        <module name="045-springboot-thymeleaf-inline" />
+        <module name="049-springboot-thymeleaf-function" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="040-springboot-thymeleaf-first" target="1.8" />
+      <module name="041-springboot-thymeleaf" target="1.8" />
+      <module name="042-springboot-thymeleaf-expression" target="1.8" />
+      <module name="043-springboot-thymeleaf" target="1.8" />
+      <module name="044-springboot-thymeleaf-if" target="1.8" />
+      <module name="045-springboot-thymeleaf-inline" target="1.8" />
+      <module name="046-springboot-thymeleaf-literal" target="1.8" />
+      <module name="047-springboot-thymeleaf-operator" target="1.8" />
+      <module name="048-springboot-thymeleaf" target="1.8" />
+      <module name="049-springboot-thymeleaf-function" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="040-springboot-thymeleaf-first" options="-parameters" />
+      <module name="041-springboot-thymeleaf" options="-parameters" />
+      <module name="042-springboot-thymeleaf-expression" options="-parameters" />
+      <module name="043-springboot-thymeleaf" options="-parameters" />
+      <module name="044-springboot-thymeleaf-if" options="-parameters" />
+      <module name="045-springboot-thymeleaf-inline" options="-parameters" />
+      <module name="046-springboot-thymeleaf-literal" options="-parameters" />
+      <module name="047-springboot-thymeleaf-operator" options="-parameters" />
+      <module name="048-springboot-thymeleaf" options="-parameters" />
+      <module name="049-springboot-thymeleaf-function" options="-parameters" />
+    </option>
+  </component>
+</project>

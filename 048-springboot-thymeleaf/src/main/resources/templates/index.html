@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>从SESSION中获取值</h1>
+<span th:text="${#session.getAttribute('data')}"></span><br/>
+<span th:text="${#httpSession.getAttribute('data')}"></span><br/>
+<span th:text="${session.data}"></span><br/>
+
+<h1>从request中获取值</h1>
+<span th:text="${#request.getAttribute('data')}"></span><br/>
+<span th:text="${#httpServletRequest.getAttribute('data')}"></span><br/>
+<!--<span th:text="${request.data}"></span><br/>-->
+<hr/>
+<script type="text/javascript" th:inline="javascript">
+    var basePath = [[${#httpServletRequest.getScheme() + "://" + #httpServletRequest.getServerName() + ":" + #httpServletRequest.getServerPort() + #httpServletRequest.getContextPath()}]];
+    console.log(basePath);
+    // http://localhost:8080/springboot/user/detail
+    //获取协议名称
+    var scheme = [[${#request.getScheme()}]];
+    //获取服务器名称
+    var serverName = [[${#request.getServerName()}]];
+    //获取服务器端口号
+    var serverPort = [[${#request.getServerPort()}]];
+    //获取上下文根
+    var contextPath = [[${#request.getContextPath()}]];
+    var allPath = scheme + "://" +serverName+":"+serverPort+contextPath;
+    //获取请求地址
+    var requestURL = [[${#httpServletRequest.requestURL}]];
+    //获取请求参数
+    var queryString = [[${#httpServletRequest.queryString}]];
+
+    var requestAddress = requestURL + "?" +queryString;
+
+    console.log(requestAddress)
+
+</script>
+</body>
+</html>

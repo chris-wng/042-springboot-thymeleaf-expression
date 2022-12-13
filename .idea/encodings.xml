@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/040-springboot-thymeleaf-first/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/040-springboot-thymeleaf-first/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/041-springboot-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/041-springboot-thymeleaf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/042-springboot-thymeleaf-expression/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/042-springboot-thymeleaf-expression/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/043-springboot-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/043-springboot-thymeleaf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/044-springboot-thymeleaf-if/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/044-springboot-thymeleaf-if/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/045-springboot-thymeleaf-inline/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/045-springboot-thymeleaf-inline/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/046-springboot-thymeleaf-literal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/046-springboot-thymeleaf-literal/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/047-springboot-thymeleaf-operator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/047-springboot-thymeleaf-operator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/048-springboot-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/048-springboot-thymeleaf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/049-springboot-thymeleaf-function/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/049-springboot-thymeleaf-function/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
